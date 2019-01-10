@@ -4,8 +4,8 @@ import com.github.threadcontext.Context;
 import com.github.threadcontext.MutableContextSupplier;
 import com.github.threadcontext.ThreadLocalContextSupplier;
 import com.github.threadcontext.control.TryFinallyContext;
-import io.opentracing.NoopSpan;
 import io.opentracing.Span;
+import io.opentracing.noop.NoopSpan;
 
 public class ContextSpan {
 
